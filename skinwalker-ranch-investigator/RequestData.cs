@@ -64,12 +64,12 @@
     public static void AskUserOptions()
     {
       int userIntResponse = 0;
-do
-{
-  UserMessages.OptionsMessage();
-  userIntResponse = RequestData.GetAnIntResponse();
-  RequestData.CorrespondingData(userIntResponse); 
-} while (userIntResponse == 1 || userIntResponse == 2 || userIntResponse == 3);
+      do
+      {
+        UserMessages.OptionsMessage();
+        userIntResponse = RequestData.GetAnIntResponse();
+        RequestData.CorrespondingData(userIntResponse); 
+      } while (userIntResponse == 1 || userIntResponse == 2 || userIntResponse == 3);
     }
   }
 }
