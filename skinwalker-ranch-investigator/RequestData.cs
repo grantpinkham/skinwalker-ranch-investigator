@@ -36,9 +36,9 @@
       Console.WriteLine("                                                                  |               |");
       Console.WriteLine("                                                                  |               |");
       Console.WriteLine("|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||");
-      Console.WriteLine("|            loc2                                                 |");
-      Console.WriteLine("|    loc3      loc1                                               |");
-      Console.WriteLine("|                                                         loc4    |");
+      Console.WriteLine("|         \\ loc2                                      /          |");
+      Console.WriteLine("|    loc3  \\ loc1              loc5                  /           |");
+      Console.WriteLine("|           \\////////////////////////////////////////   loc4     |");
       Console.WriteLine("|                                                                 |");
       Console.WriteLine("|                                                                 |");
       Console.WriteLine("|                                                                 |");
