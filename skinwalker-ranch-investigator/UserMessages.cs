@@ -22,11 +22,19 @@
     }
     public static void InProgressMessage()
     {
-      Console.Clear();
       Console.WriteLine();
       Console.WriteLine("***Feature In Progress.***");
       Console.WriteLine();
       Console.WriteLine("Please select another Feature.");
+    }
+    public static void LocationsMessage()
+    {
+      Console.Clear();
+      Console.WriteLine("loc1 - Homestead 2");
+      Console.WriteLine("loc2 - Sinkhole");
+      Console.WriteLine("loc3 - Western Grazing Field");
+      Console.WriteLine("loc4 - Eastern Grazing Field");
+      Console.WriteLine("loc5 - Ridgeline (Mesa)");
     }
   }
 }

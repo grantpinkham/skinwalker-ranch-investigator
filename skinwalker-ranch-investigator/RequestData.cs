@@ -16,6 +16,7 @@
           DisplayMap();
           break;
         case 2:
+          UserMessages.LocationsMessage();
           UserMessages.InProgressMessage();
           break;
         case 3:
@@ -60,6 +61,8 @@
       Console.WriteLine("                                                   |              |");
       Console.WriteLine("                                                   |              |");
       Console.WriteLine("                                                   ||||||||||||||||");
+      Console.WriteLine();
+
     }
     public static void AskUserOptions()
     {
