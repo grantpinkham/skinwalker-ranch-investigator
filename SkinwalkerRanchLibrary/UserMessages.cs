@@ -1,4 +1,6 @@
-﻿namespace SkinwalkerRanchLibrary
+﻿using System;
+
+namespace SkinwalkerRanchLibrary
 {
   public static class UserMessages
   {
