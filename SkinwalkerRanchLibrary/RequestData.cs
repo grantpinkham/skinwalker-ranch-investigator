@@ -10,6 +10,12 @@ namespace SkinwalkerRanchLibrary
       bool isValidNumber = int.TryParse(userResponseText, out int output);
       return output;
     }
+    public static string GetAStringResponse(string message)
+    {
+      Console.Write(message);
+      string userResponseText = Console.ReadLine();
+      return userResponseText;
+    }
     public static void CorrespondingData(int responseNum)
     {
       switch (responseNum)
@@ -18,8 +24,8 @@ namespace SkinwalkerRanchLibrary
           DisplayMap();
           break;
         case 2:
+          DisplayMap();
           UserMessages.LocationsMessage();
-          UserMessages.InProgressMessage();
           break;
         case 3:
           UserMessages.InProgressMessage();
@@ -73,7 +79,12 @@ namespace SkinwalkerRanchLibrary
       {
         UserMessages.OptionsMessage();
         userIntResponse = RequestData.GetAnIntResponse();
-        RequestData.CorrespondingData(userIntResponse); 
+        RequestData.CorrespondingData(userIntResponse);
+        if (userIntResponse == 2)
+        {
+          GetAStringResponse("Type 'loc1' to investigate Homestead 2: ");
+          UserMessages.InProgressMessage();
+        }
       } while (userIntResponse == 1 || userIntResponse == 2 || userIntResponse == 3);
     }
   }

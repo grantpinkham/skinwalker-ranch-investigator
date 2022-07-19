@@ -31,12 +31,12 @@ namespace SkinwalkerRanchLibrary
     }
     public static void LocationsMessage()
     {
-      Console.Clear();
-      Console.WriteLine("loc1 - Homestead 2");
-      Console.WriteLine("loc2 - Sinkhole");
-      Console.WriteLine("loc3 - Western Grazing Field");
-      Console.WriteLine("loc4 - Eastern Grazing Field");
-      Console.WriteLine("loc5 - Ridgeline (Mesa)");
+      Console.WriteLine("\t\t\tloc1 - Homestead 2");
+      Console.WriteLine("\t\t\tloc2 - Sinkhole");
+      Console.WriteLine("\t\t\tloc3 - Western Grazing Field");
+      Console.WriteLine("\t\t\tloc4 - Eastern Grazing Field");
+      Console.WriteLine("\t\t\tloc5 - Ridgeline (Mesa)");
+      Console.WriteLine();
     }
   }
 }
