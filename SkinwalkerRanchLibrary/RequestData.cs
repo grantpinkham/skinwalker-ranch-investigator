@@ -82,7 +82,12 @@ namespace SkinwalkerRanchLibrary
         RequestData.CorrespondingData(userIntResponse);
         if (userIntResponse == 2)
         {
-          GetAStringResponse("Type 'loc1' to investigate Homestead 2: ");
+          Console.WriteLine("Type 'loc1' to investigate Homestead 2.");
+          Console.WriteLine("Type 'loc2' to investigate Sinkhole.");
+          Console.WriteLine("Type 'loc3' to investigate Western Grazing Field.");
+          Console.WriteLine("Type 'loc4' to investigate Eastern Grazing Field.");
+          Console.WriteLine("Type 'loc5' to investigate Ridgeline (Mesa).");
+          GetAnIntResponse();
           UserMessages.InProgressMessage();
         }
       } while (userIntResponse == 1 || userIntResponse == 2 || userIntResponse == 3);
